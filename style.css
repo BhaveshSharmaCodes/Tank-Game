@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    display: block;
+    background-color: #222;
+}
+#retryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#manual{
+    top: 50%;
+    left: 50%;
+    background-color: rgb(68, 68, 68);
+    width: 25rem;
+    height: 20rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: .14rem;
+    font-size: 1.1rem;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-radius: 2rem;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    padding: 1rem;
+}
+
+#manual button{
+    border-radius: .6rem;
+    background-color: rgb(26, 25, 25);
+    width: 10rem;
+    height: 100%;
+    color: aliceblue;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: .17rem;
+    font-size: 1.1rem;
+}
